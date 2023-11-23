@@ -1,3 +1,10 @@
+<script setup>
+import TheHeader from "./components/TheHeader.vue";
+import TheNav from "./components/TheNav.vue";
+</script>
+
 <template>
-  <h1 class="text-3xl font-bold underline">Hello world!</h1>
+  <TheHeader />
+  <main class="flex flex-grow flex-col"></main>
+  <TheNav />
 </template>
